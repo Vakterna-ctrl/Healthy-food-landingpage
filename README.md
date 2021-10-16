@@ -1,3 +1,3 @@
 # Healthy-food-landingpage
 
-Website exists on https://khas-food-plan.netlify.app/
+Website is deployed on https://khas-foodplan.netlify.app/
