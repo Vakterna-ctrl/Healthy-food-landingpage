@@ -10,10 +10,10 @@ yearEl.textContent = currentYear;
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 
-btnNavEl.addEventListener("click", function () {
+const openNavFunc = function () {
   headerEl.classList.toggle("nav-open");
-  console.log(" i am activated");
-});
+};
+btnNavEl.addEventListener("click", openNavFunc);
 
 //smooth behavior
 const allLinks = document.querySelectorAll("a:link");
